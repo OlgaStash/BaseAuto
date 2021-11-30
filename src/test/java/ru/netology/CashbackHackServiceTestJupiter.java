@@ -13,7 +13,7 @@ class CashbackHackServiceTestJupiter {
 
         int actual = service.remain(payment);
         int expected = 1000;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
 
@@ -25,8 +25,7 @@ class CashbackHackServiceTestJupiter {
 
         int actual = service.remain(payment);
         int expected = 999;
-        assertEquals(actual, expected);
-
+        assertEquals(expected, actual);
     }
 
 
@@ -37,7 +36,6 @@ class CashbackHackServiceTestJupiter {
 
         int actual = service.remain(payment);
         int expected = 0;
-        assertEquals(actual, expected);
-
+        assertEquals(expected, actual);
     }
 }
